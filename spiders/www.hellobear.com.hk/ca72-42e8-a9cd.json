@@ -1,0 +1,132 @@
+{
+    "extractors": {},
+    "id": "ca72-42e8-a9cd",
+    "name": "product",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "6086-4538-9565",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "64b0-4525-8760",
+                    "selector": ".show-mb",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".Product-title"
+                    ],
+                    "container_id": "6086-4538-9565",
+                    "data": {
+                        "2766-4a3d-a3a9": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "264e-40fa-bfed",
+                            "required": false
+                        }
+                    },
+                    "id": "a25d-4463-b622",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".Product-title",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" Product-title \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .product-detail-actions > .not-same-price > .price-box > .global-primary"
+                    ],
+                    "container_id": "6086-4538-9565",
+                    "data": {
+                        "ec35-442d-9e73": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "d75c-42f0-8452",
+                            "required": false
+                        }
+                    },
+                    "id": "a133-4b54-a22d",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .product-detail-actions > .not-same-price > .price-box > .global-primary",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" product-detail-actions \")]/*[contains(concat(\" \", @class, \" \"), \" not-same-price \")]/*[contains(concat(\" \", @class, \" \"), \" price-box \")]/*[contains(concat(\" \", @class, \" \"), \" global-primary \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".MsoListParagraphCxSpFirst > span:nth-child(2)"
+                    ],
+                    "container_id": "6086-4538-9565",
+                    "data": {
+                        "9c83-423b-aea1": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "2a53-4b42-8b44",
+                            "required": false
+                        }
+                    },
+                    "id": "8118-4f6c-87f7",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".MsoListParagraphCxSpFirst > span:nth-child(2)",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" MsoListParagraphCxSpFirst \")]/span[2]"
+                },
+                {
+                    "accept_selectors": [
+                        ".img-responsive"
+                    ],
+                    "container_id": "6086-4538-9565",
+                    "data": {
+                        "27e0-4214-b183": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "8492-4b61-82d3",
+                            "required": false
+                        }
+                    },
+                    "id": "ff81-440a-8c39",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": true,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".img-responsive",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" img-responsive \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "64b0-4525-8760",
+    "spider": "www.hellobear.com.hk",
+    "url": "https://www.hellobear.com.hk/products/lunon-lun09-ultrasonic-cleaning-brush",
+    "version": "0.13.3"
+}
