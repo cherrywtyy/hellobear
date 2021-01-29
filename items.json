@@ -1,0 +1,39 @@
+{
+    "64b0-4525-8760": {
+        "fields": {
+            "264e-40fa-bfed": {
+                "id": "264e-40fa-bfed", 
+                "name": "name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "d75c-42f0-8452": {
+                "id": "d75c-42f0-8452", 
+                "name": "price", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "2a53-4b42-8b44": {
+                "id": "2a53-4b42-8b44", 
+                "name": "description", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "8492-4b61-82d3": {
+                "id": "8492-4b61-82d3", 
+                "name": "image", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }
+        }, 
+        "name": "Lunon LUN"
+    }, 
+    "427d-493d-9301": {
+        "fields": {}, 
+        "name": "text"
+    }
+}
